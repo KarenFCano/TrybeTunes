@@ -1,0 +1,80 @@
+.container-login {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('https://www.journaldugeek.com/content/uploads/2022/03/template-jdg-90.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.form-login {
+  align-items: center;
+  backdrop-filter: blur(18.5px);
+  background-color: rgb(18, 17, 17);
+  border: 1px solid rgba(126, 13, 83, 0.496);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  display: flex;
+  flex-flow: column nowrap;
+  height: 500px;
+  justify-content: center;
+  left: 5%;
+  position: absolute;
+  top: 15%;
+  width: 400px;
+}
+
+.form-login h1 {
+  color: beige;
+  font-size: 50px;
+}
+
+.form-login form {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.form-login form label {
+  font-weight: 350;
+  -webkit-text-stroke: 1px white;
+}
+
+.form-login form label input {
+  background-color: 1px solid black;
+  border-radius: 12px;
+  color: black;
+  font-size: 18px;
+  height: 35px;
+  margin-left: 8px;
+  outline: none;
+  padding-left: 5px;
+  -webkit-text-stroke: 1px black;
+  width: 250px;
+}
+
+.form-login form button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  height: 40px;
+  transition: 0.2s;
+  width: 100px;
+}
+
+.form-login form button:hover {
+  background-color: #848484;
+}
+
+.form-login form button:disabled {
+  background-color: rgb(63, 54, 54);
+  color: white;
+}
+
+.form-login form button:disabled:hover {
+  background-color: black;
+  color: white;
+}

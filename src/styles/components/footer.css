@@ -1,0 +1,10 @@
+.footer-container {
+  align-items: center;
+  background-color: rgb(85, 80, 80);
+  color: white;
+  display: flex;
+  font-weight: 600;
+  height: 50px;
+  justify-content: space-evenly;
+  width: 100%;
+}

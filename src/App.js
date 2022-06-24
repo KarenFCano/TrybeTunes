@@ -1,9 +1,11 @@
 import React from 'react';
+import Routes from './routes';
+import './App.css';
 
-class App extends React.Component {
-  render() {
-    return (<p>TrybeTunes</p>);
-  }
+function App() {
+  return (
+    <Routes />
+  );
 }
 
 export default App;
