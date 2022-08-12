@@ -1,0 +1,93 @@
+.search-container {
+  background-color: black;
+}
+
+.search-container h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.search-container form {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100px;
+  justify-content: space-evenly;
+}
+
+.search-container form label {
+  font-weight: 350;
+  -webkit-text-stroke: 1px white;
+}
+
+.search-container form button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  height: 40px;
+  transition: 0.2s;
+  width: 100px;
+}
+
+.search-container form label input {
+  background-color: 1px solid black;
+  border-radius: 12px;
+  color: rgb(62, 52, 52);
+  font-size: 18px;
+  height: 35px;
+  margin-left: 8px;
+  outline: none;
+  padding-left: 5px;
+  -webkit-text-stroke: 1px rgb(136, 130, 130);
+  width: 250px;
+}
+
+.results-container {
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.results-content {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.results-card {
+  background-color: black;
+  border-radius: 12px;
+  color: white;
+  height: 250px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  padding: 5px;
+  width: 20%;
+}
+
+.results-card a {
+  align-items: center;
+  border-bottom: 15px;
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.results-content a img {
+  width: 80%;
+}
+
+.results-content .results-card:hover {
+  background-color: rgb(35, 33, 33);
+  transform: scale(1.05);
+}

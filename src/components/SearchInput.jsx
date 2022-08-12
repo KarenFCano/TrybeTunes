@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import '../styles/pages/search.css';
 
 function SearchInput() {
   const [search, setSearch] = useState('');

@@ -11,13 +11,15 @@ export default function Header() {
       <h1>
         Olá,
         {' '}
-        { nome }
+        {nome}
       </h1>
-      <nav>
-        <Link to="/search">Busca</Link>
-        <Link to="/favorites">Favoritos</Link>
-        <Link to="/profile">Perfil</Link>
-      </nav>
+      <div className="header-buttons">
+        <nav>
+          <Link to="/search">Busca</Link>
+          <Link to="/favorites">Favoritos</Link>
+          <Link to="/profile">Perfil</Link>
+        </nav>
+      </div>
     </header>
   );
 }

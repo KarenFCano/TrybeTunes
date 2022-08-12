@@ -1,0 +1,26 @@
+.favorites-results {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+.favorites-results h1 {
+  align-items: center;
+  color: black;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.favorites-results h2 {
+  align-items: center;
+  background-color: rgb(85, 80, 80);
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  height: 80px;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  width: 500px;
+}
+

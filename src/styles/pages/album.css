@@ -1,0 +1,61 @@
+.album-main-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+.musics-results {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+.card-music {
+  align-items: center;
+  background-color: black;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  height: 80px;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.card-music h4 {
+  overflow-y: hidden;
+  padding-left: 10px;
+  width: 33%;
+}
+
+.card-music img {
+  border-radius: 5%;
+  height: 50px;
+  width: 50px;
+}
+
+.card-music button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.heart {
+  color: white;
+  font-size: 40px;
+}
+
+/* stylelint-disable-next-line selector-max-specificity */
+#myVideo {
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.3;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
+}

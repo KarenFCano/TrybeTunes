@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import * as EmailValidator from 'email-validator';
@@ -9,6 +9,7 @@ function Login() {
     nome: '',
     email: '',
   });
+  console.log('loginpage');
   const [btnDisable, setBtnDisable] = useState(true);
   const dispatch = useDispatch();
   const history = useHistory();
@@ -34,6 +35,13 @@ function Login() {
   }, [nome, email]);
 
   const handleChange = ({ target: { value, name } }) => {
+    const MIN_LENGTH = 3;
+    const emailValid = EmailValidator.validate(email);
+    if (nome.length >= MIN_LENGTH && emailValid) {
+      setBtnDisable(false);
+    } else {
+      setBtnDisable(true);
+    }
     setUser({ ...user, [name]: value });
   };
 
