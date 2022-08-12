@@ -1,10 +1,6 @@
 # Trybetynes
 
----
-
 ## O que foi desenvolvido
-
----
 
 Neste projeto foi criada uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada. Essa aplicação é capaz de:
 
@@ -18,8 +14,6 @@ Neste projeto foi criada uma aplicação capaz de reproduzir músicas das mais v
   - Ver o perfil da pessoa logada;
 
 ## Tecnologias utilizadas
-
----
 
   - ReactJs
   - Functional Component plus Redux
