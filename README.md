@@ -1,4 +1,4 @@
-# Trybetynes
+# Trybetunes
 
 ## O que foi desenvolvido
 
